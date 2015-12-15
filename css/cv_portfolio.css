@@ -8,7 +8,9 @@ body{
 
 header, footer{
     background-image:url(../img/bg_waves.png);
+    /*
     padding:10px;
+    */
     width:100%;
     color:grey;
 }
@@ -62,17 +64,84 @@ footer{
     margin-bottom:5px;
 }
 
-footer p{
-    text-align:center;
-    width:30%;
-    display:inline-block;
-    vertical-align:top;
-    box-sizing:border-box;
-    margin-left:30px;
-}
+
 footer a {
-    color:#3E3C3F
+    color:grey;
 }
+/*
+Formulaire
+*/
+form{
+    font: 95% Arial, Helvetica, sans-serif;
+    max-width: 400px;
+    margin: 10px;
+    padding: 5px;
+    background: #F7F7F7;
+}
+/*
+*/
+.formgroup h3{
+    background: #ddf2ab;
+    padding: 20px 0;
+    font-size: 140%;
+    font-weight: 300;
+    text-align: center;
+    color: grey;
+    margin: 1%;
+}
+form input ,
+form textarea {
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 1%;
+    border: 1px solid #ccc;
+    padding: 3%;
+    color: #555;
+    font: 95% Arial, Helvetica, sans-serif;
+}
+form input:focus,
+form textarea:focus {
+    box-shadow: 0 0 5px #ddf2ab;
+    padding: 3%;
+    border: 1px solid #ddf2ab;
+}
+
+form input[type="submit"]{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    padding: 3%;
+    background: #ddf2ab;
+    border-bottom: 2px solid #ddf2ab;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    color: grey;
+}
+form input[type="submit"]:hover{
+    background: #ddf2ab;
+}
+/*
+Fin de formulaire
+*/
+.contactinfo1, .contactinfo2{
+    margin-top:8%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.contactinfo1 p , .contactinfo2 p{
+    text-align: center;
+}
+
 #info {
     -webkit-border-radius:5px;
     -moz-border-radius:5px;
@@ -107,16 +176,16 @@ footer a {
     }
 
 
-.container { 
-    position: relative; 
-    width: 960px; 
-    margin: 0 auto; 
+/*main.container {
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
     -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease;
-}
- 
+}*/
+
 #filters {
     margin:1%;
     padding:0;

@@ -232,20 +232,38 @@
         </div>
     </main>
     <footer>
-        <div class="navbar navbar-inverse navbar-fixed-bottom " role="navigation">
-            <div class="container ">
-                <div class="class-bar pull-left ">
-                    <span>Emmanuelle Bersez Hommet _ Am Schaefflerbach 4 _ 86153 Augsbourg _ ALLEMAGNE</span>
+        <div class="container">
 
-                    <span>Tél : 0049 176 84 81 95 33 _ Mail: pseudoups@hotmail.fr</span>
-                    <a href="https://de.linkedin.com/in/emmanuellebh ">
-                        <i class="fa fa-linkedin-square fa-2x "></i>
-                    </a>
+            <div class="contactinfo1 col-md-4">
+                <p>Emmanuelle Bersez Hommet</p>
+                <p>Am Schaefflerbach 4</p>
+                <p>86153 Augsbourg</p>
+                <p>ALLEMAGNE </p>
+            </div>
+            <div class="formgroup col-md-4">
+                <form role="form" action="post_contact.php" method="post">
+                    <h3>Me contacter</h3>
+                    <label for="name" class="sr-only">x</label>
+                    <input class="form-control" type="text" name="name" id="name" placeholder="Votre nom">
+                    <label for="mail" class="sr-only">x</label>
+                    <input class="form-control" type="email" name="mail" id="mail" placeholder="Votre email">
+                    <label for="message" class="sr-only">x</label>
+                    <textarea class="form-control" name="message" id="message" cols="30" rows="5"
+                              placeholder="Votre message"></textarea>
+                    <input type="submit" value="ENVOYER">
+                </form>
+            </div>
+            <div class="contactinfo2 col-md-4">
+                <p>Tél : 0049 176 84 81 95 33</p>
+                <p>Mail: pseudoups@hotmail.fr</p>
+                <p><a href="https://de.linkedin.com/in/emmanuellebh ">
+                    <i class="fa fa-linkedin-square fa-2x "></i>
+                </a>
                     <a href="https://github.com/titzelle">
                         <i class="fa fa-github-square fa-2x "></i>
-                    </a>
-                </div>
+                    </a></p>
             </div>
+
         </div>
     </footer>
 </div>
